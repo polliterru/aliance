@@ -52,13 +52,10 @@
   line-height: 160%;
   color: white;
   background: #3a71d1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 25px 60px;
-  gap: 10px;
   border: none;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .header-button {
