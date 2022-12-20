@@ -1,3 +1,3 @@
-# html-starter
+# Aliance Production
 Корпоративный сайт
 ### Автор: Полина Сильнягина
