@@ -24,7 +24,7 @@ body {
   display: flex;
   align-items: center;
   font-family: 'Noto Sans', sans-serif;
-  color: white;
+  color: #ffffff;
   height: 94px;
   position: relative;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
