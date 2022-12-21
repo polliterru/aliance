@@ -26,13 +26,17 @@ body {
   font-family: 'Noto Sans', sans-serif;
   color: #ffffff;
   height: 94px;
-  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
   z-index: 10;
 }
 
 .header {
   min-height: 100vh;
+  padding-top: 94px;
 }
 
 .header-image {
