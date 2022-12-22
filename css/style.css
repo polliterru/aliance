@@ -41,10 +41,11 @@ body {
   width: 100%;
   height: 1px;
   background-color: rgba(235, 235, 240, 0.2);
-  transition: opacity 0.2s;
+  transition: opacity 0.2s height 0.2s;
 }
 
 .navbar-light {
+  height: 74px;
   background-color: #fff;
   color: #292d33;
   border-bottom: none;
@@ -58,12 +59,12 @@ body {
   opacity: 0;
 }
 
-.header {
+.main {
   min-height: 100vh;
   padding-top: 94px;
 }
 
-.header-image {
+.main-image {
   background-image: url(../img/header-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -71,8 +72,8 @@ body {
   position: relative;
 }
 
-.header-image::after {
-  content: " ";
+.main-image::after {
+  content: "";
   top: 0;
   left: 0;
   position: absolute;
@@ -83,9 +84,16 @@ body {
 }
 
 .header-logo {
-  padding: 25px 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
+}
+
+.logo-svg {
+  width: 140px;
+  height: 44px;
 }
 
 .header-nav {
@@ -117,6 +125,11 @@ body {
   color: inherit;
 }
 
+.phone-icon {
+  width: 24px; 
+  height: 24px;
+}
+
 .button {
   font-weight: 600;
   font-size: 16px;
@@ -144,14 +157,14 @@ body {
   z-index: 10;
 }
 
-.header-content {
+.main-content {
   padding-top: 150px;
   position: relative;
   z-index: 10;
   color: white;
 }
 
-.header-title {
+.main-title {
   max-width: 1080px;
   font-family: "Bebas Neue";
   font-size: 80px;
@@ -159,7 +172,7 @@ body {
   margin: 30px 0;
 }
 
-.header-text {
+.main-text {
   max-width: 720px;
   font-style: normal;
   font-weight: 400;
@@ -168,7 +181,7 @@ body {
   margin-bottom: 50px;
 }
 
-.header-features {
+.main-features {
   display: flex;
   min-height: 168px;
   padding: 0;
@@ -179,16 +192,16 @@ body {
   color: white;
 }
 
-.header-features-item {
+.main-features-item {
   padding: 30px 50px;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
 
-.header-features-item:not(:last-child) {
+.main-features-item:not(:last-child) {
   border-right: none;
 }
 
-.header-features-text {
+.main-features-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -210,7 +223,7 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 3px;
+  gap: 30px;
 }
 
 .steps-item {
@@ -266,4 +279,9 @@ body {
   background: #5c8ee6;
   width: 40px;
   margin-right: 20px;
+}
+
+.steps-icon {
+  width: 36px; 
+  height: 36px;
 }
