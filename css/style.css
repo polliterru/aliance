@@ -309,7 +309,7 @@ body {
   margin-right: 1.25rem;
 }
 
-@media (max-width: 1700px) {
+@media (min-width: 1200px) and (max-width: 1919px) {
   html {
     font-size: 14px;
   }
