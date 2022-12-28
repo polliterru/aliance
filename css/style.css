@@ -411,21 +411,21 @@ body.no-scroll {
     flex-direction: column;
     justify-content: space-between;
   }
-  .burger-button.active .burger-button-line {
+  .burger-button.close-menu .burger-button-line {
     position: absolute;
   }
-  .burger-button.active .burger-button-line:nth-child(2) {
+  .burger-button.close-menu .burger-button-line:nth-child(2) {
     opacity: 0;
   }
-  .burger-button.active .burger-button-line:nth-child(1),
-  .burger-button.active .burger-button-line:nth-child(3) {
+  .burger-button.close-menu .burger-button-line:nth-child(1),
+  .burger-button.close-menu .burger-button-line:nth-child(3) {
     top: 50%;
     transform-origin: center;
   }
-  .burger-button.active .burger-button-line:nth-child(1) {
+  .burger-button.close-menu .burger-button-line:nth-child(1) {
     transform: rotate(45deg);
   }
-  .burger-button.active .burger-button-line:nth-child(3) {
+  .burger-button.close-menu .burger-button-line:nth-child(3) {
     transform: rotate(-45deg);
   }
   .navbar-light .burger-button-line {

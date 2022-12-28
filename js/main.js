@@ -12,16 +12,12 @@ const removeNavbarLight = () => {
   logo.href.baseVal = 'img/sprite.svg#logo-light'
 }
 
-window.addEventListener('scroll', function() {
-  if (window.scrollY > 99) {
-    addNavbarLight()
-  } else {
-    removeNavbarLight()
-  }
+window.addEventListener('scroll', () => {
+  window.scrollY > 99 ? addNavbarLight() : removeNavbarLight()
 })
 
 mobileMenuToggle.addEventListener('click', () => {
-  mobileMenuToggle.classList.toggle('active')
+  mobileMenuToggle.classList.toggle('close-menu')
   mobileMenu.classList.toggle('is-open')
   document.documentElement.classList.toggle('no-scroll')
   document.body.classList.toggle('no-scroll')
