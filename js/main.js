@@ -3,11 +3,6 @@ const logo = document.querySelector('.logo-svg use')
 const mobileMenuToggle = document.querySelector('.js-mobile-menu-toggle')
 const mobileMenu = document.querySelector('.mobile-menu')
 
-console.log(navbar);
-console.log(logo);
-console.log(mobileMenuToggle);
-console.log(mobileMenu);
-
 const addNavbarLight = () => {
   navbar.classList.add('navbar-light')
   logo.href.baseVal = 'img/sprite.svg#logo'
@@ -35,8 +30,8 @@ mobileMenuToggle.addEventListener('click', () => {
 
 const swiperFeatures = new Swiper('.swiper-features', {
   speed: 400,
+  freeMode: true,
   autoHeight: true,
-  loop: true,
   navigation: {
     nextEl: '.slider-button-next',
     prevEl: '.slider-button-prev',
@@ -44,7 +39,7 @@ const swiperFeatures = new Swiper('.swiper-features', {
   breakpoints: {
     // when window width is >= 576px
     0: {
-      slidesPerView: 1,
+      slidesPerView: 'auto',
     },
     // when window width is >= 768px
     768: {
@@ -63,8 +58,8 @@ const swiperFeatures = new Swiper('.swiper-features', {
 
 const swiperStep = new Swiper('.swiper-step', {
   speed: 400,
-  autoHeight: true,
-  loop: true,
+  freeMode: true,
+  spaceBetween: 30,
   navigation: {
     nextEl: '.slider-step-button-next',
     prevEl: '.slider-step-button-prev',
@@ -72,7 +67,7 @@ const swiperStep = new Swiper('.swiper-step', {
   breakpoints: {
     // when window width is >= 576px
     0: {
-      slidesPerView: 1,
+      slidesPerView: 'auto',
     },
     // when window width is >= 768px
     768: {
@@ -80,8 +75,10 @@ const swiperStep = new Swiper('.swiper-step', {
     },
     // when window width is >= 1024px
     1024: {
+      slidesPerView: 3,
+    },
+    1200: {
       slidesPerView: 4,
-
     }
   },
 })

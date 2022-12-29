@@ -24,6 +24,11 @@ body.no-scroll {
   overflow-y: hidden;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .mobile-menu {
   display: none;
 }
@@ -206,6 +211,7 @@ body.no-scroll {
 
 .main-content {
   padding-top: 9.375rem;
+  padding-bottom: 3.125rem;
   position: relative;
   z-index: 10;
   color: white;
@@ -251,12 +257,20 @@ body.no-scroll {
   width: 18rem;
   padding: 1.875rem 3.125rem;
   min-height: 100%;
-  border: 1px solid rgba(235, 235, 240, 0.2);
+  border-right: 1px solid rgba(235, 235, 240, 0.2);
+}
+
+.main-features-item:last-child {
+  border: none;
 }
 
 .main-features-icon {
   width: 2.25rem;
   height: 2.25rem;
+}
+
+.swiper-features {
+  border: 1px solid rgba(235, 235, 240, 0.2);
 }
 
 .submenu-icon,
@@ -268,10 +282,6 @@ body.no-scroll {
 .arrow-slider {
   width: 36px;
   height: 24px;
-}
-
-.main-features-item:not(:last-child) {
-  border-right: none;
 }
 
 .slider-buttons,
@@ -423,6 +433,8 @@ body.no-scroll {
   .slider-step-buttons {
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    z-index: 10;
   }
 }
 
@@ -576,6 +588,12 @@ body.no-scroll {
   }
   .main-content {
     padding-top: 3rem;
+  }
+  .swiper-step .swiper-slide {
+    width: 300px;
+  }
+  .swiper-step {
+    overflow: visible;
   }
 }
 
