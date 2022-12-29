@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/style.css?v=1" />
   <title>Aliance Production</title>
@@ -152,87 +153,133 @@
         </p>
         <button class="button main-button">Подробнее о компании</button>
       </div>
+      <!-- Основной слайдер -->
+      <div class="swiper swiper-features">
+        <!-- Обертка слайдера -->
+        <ul class="swiper-wrapper main-features">
+          <!-- Слайды -->
+          <li class="swiper-slide main-features-item">
+            <svg class="main-features-icon">
+              <use href="./img/sprite.svg#clock"></use>
+            </svg>
+            <p class="main-features-text">Непрерывная работа c 2017 года</p>
+          </li>
+          <li class="swiper-slide main-features-item">
+            <svg class="main-features-icon">
+              <use href="./img/sprite.svg#file"></use>
+            </svg>
+            <p class="main-features-text">Вся продукция сертифицирована</p>
+          </li>
+          <li class="swiper-slide main-features-item">
+            <svg class="main-features-icon">
+              <use href="./img/sprite.svg#man"></use>
+            </svg>
+            <p class="main-features-text">Контроль качества на всех этапах</p>
+          </li>
+          <li class="swiper-slide main-features-item">
+            <svg class="main-features-icon">
+              <use href="./img/sprite.svg#car"></use>
+            </svg>
+            <p class="main-features-text">Возможны поставки по всей России
+          </li>
+          <li class="swiper-slide main-features-item">
+            <svg class="main-features-icon">
+              <use href="./img/sprite.svg#counter"></use>
+            </svg>
+            <p class="main-features-text">Оперативное производство</p>
+          </li>
+        </ul>
+        <!-- Кнопки навигации вперед\назад -->
+       <div class="slider-buttons">
+         <div class="slider-button-prev">
+          <svg class="arrow-slider">
+            <use href="./img/sprite.svg#arrow-prev"></use>
+          </svg>
+         </div>
+         <div class="slider-button-next">
+          <svg class="arrow-slider">
+            <use href="./img/sprite.svg#arrow-next"></use>
+          </svg>
+         </div>
+       </div>
+      </div>
       <!-- /.main-content -->
-      <ul class="main-features">
-        <li class="main-features-item">
-          <svg class="main-features-icon">
-            <use href="./img/sprite.svg#clock"></use>
-          </svg>
-          <p class="main-features-text">Непрерывная работа c 2017 года</p>
-        </li>
-        <li class="main-features-item">
-          <svg class="main-features-icon">
-            <use href="./img/sprite.svg#file"></use>
-          </svg>
-          <p class="main-features-text">Вся продукция сертифицирована</p>
-        </li>
-        <li class="main-features-item">
-          <svg class="main-features-icon">
-            <use href="./img/sprite.svg#man"></use>
-          </svg>
-          <p class="main-features-text">Контроль качества на всех этапах</p>
-        </li>
-        <li class="main-features-item">
-          <svg class="main-features-icon">
-            <use href="./img/sprite.svg#car"></use>
-          </svg>
-          <p class="main-features-text">Возможны поставки по всей России</p>
-        </li>
-        <li class="main-features-item">
-          <svg class="main-features-icon">
-            <use href="./img/sprite.svg#counter"></use>
-          </svg>
-          <p class="main-features-text">Оперативное производство</p>
-        </li>
-      </ul>
-      <!-- /.main-features -->
     </div>
   </section>
   <!-- /.main.main-image -->
 
   <section class="section section-light">
     <div class="container">
-      <div class="seporaiter"></div>
-      <h2 class="section-title">схема работы</h2>
-      <ol class="steps">
-        <li class="steps-item">
-          <span class="steps-num">01</span>
-          <h3 class="steps-title">Знакомство</h3>
-          <p class="steps-text">
-            Безусловно, сплочённость команды профессионалов позволяет оценить
-            значение форм воздействия.
-          </p>
-          <a href="#" class="steps-link">Оставить заявку</a>
-        </li>
-        <li class="steps-item">
-          <span class="steps-num">02</span>
-          <h3 class="steps-title">Заключение <br> договора</h3>
-          <p class="steps-text">
-            Лишь интерактивные прототипы призваны к ответу.
-          </p>
-        </li>
-        <li class="steps-item">
-          <span class="steps-num">03</span>
-          <h3 class="steps-title">Производство</h3>
-          <p class="steps-text">
-            А также стремящиеся вытеснить традиционное производство,
-            нанотехнологии функционально разнесены на независимые <br> элементы.
-          </p>
-        </li>
-        <li class="steps-item">
-          <span class="steps-num">04</span>
-          <h3 class="steps-title">Доставка</h3>
-          <p class="steps-text">
-            В частности, экономическая повестка сегодняшнего дня говорит о
-            возможностях приоритизации <br> разума над эмоциями.
-          </p>
-        </li>
-      </ol>
+      <div class="steps-content">
+        <div class="seporaiter"></div>
+        <h2 class="section-title">схема работы</h2>
+              <!-- Основной слайдер -->
+        <div class="swiper swiper-step">
+          <!-- Обертка слайдера -->
+          <ul class="swiper-wrapper">
+            <!-- Слайды -->
+            <div class="swiper-slide">
+              <li class="steps-item">
+                <span class="steps-num">01</span>
+                <h3 class="steps-title">Знакомство</h3>
+                <p class="steps-text">
+                  Безусловно, сплочённость команды профессионалов позволяет оценить
+                  значение форм воздействия.
+                </p>
+                <a href="#" class="steps-link">Оставить заявку</a>
+              </li>
+            </div>
+            <div class="swiper-slide">
+              <li class="steps-item">
+                <span class="steps-num">02</span>
+                <h3 class="steps-title">Заключение <br> договора</h3>
+                <p class="steps-text">
+                  Лишь интерактивные прототипы призваны к ответу.
+                </p>
+              </li>
+            </div>
+            <div class="swiper-slide">
+              <li class="steps-item">
+                <span class="steps-num">03</span>
+                <h3 class="steps-title">Производство</h3>
+                <p class="steps-text">
+                  А также стремящиеся вытеснить традиционное производство,
+                  нанотехнологии функционально разнесены на независимые <br> элементы.
+                </p>
+              </li>
+            </div>
+            <div class="swiper-slide">
+              <li class="steps-item">
+                <span class="steps-num">04</span>
+                <h3 class="steps-title">Доставка</h3>
+                <p class="steps-text">
+                  В частности, экономическая повестка сегодняшнего дня говорит о
+                  возможностях приоритизации <br> разума над эмоциями.
+                </p>
+              </li>
+            </div>
+          </ul>
+          <!-- Кнопки навигации вперед\назад -->
+        <div class="slider-step-buttons">
+          <div class="slider-step-button-prev">
+            <svg class="arrow-slider">
+              <use href="./img/sprite.svg#arrow-prev"></use>
+            </svg>
+          </div>
+          <div class="slider-step-button-next">
+            <svg class="arrow-slider">
+              <use href="./img/sprite.svg#arrow-next"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- steps-content  -->
     </div>
     <!-- /.container -->
   </section>
   <!-- /.section.section-light -->
 
+  <script src="./js/swiper-bundle.min.js"></script>
   <script src="./js/main.js"></script>
 </body>
 
