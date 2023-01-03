@@ -221,7 +221,7 @@ img {
 
 /* main */
 .main {
-  min-height: 100vh;
+  min-height: 970px;
   padding-top: 5.875rem;
 }
 
@@ -279,7 +279,6 @@ img {
 
 .main-features {
   display: flex;
-  min-height: 10.5rem;
   padding: 0;
   margin-top: 6.25rem;
   list-style: none;
@@ -291,10 +290,9 @@ img {
 .main-features-item {
   width: 18rem;
   padding-top: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
-  min-height: 100%;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
 }
 
@@ -546,6 +544,9 @@ img {
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
+  }
+  .main {
+    min-height: 100%;
   }
   .card-mark {
     padding: 30px;
