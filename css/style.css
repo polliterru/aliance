@@ -29,6 +29,11 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .mobile-menu {
   display: none;
 }
@@ -241,7 +246,7 @@ body {
 
 .main-content {
   padding-top: 9.375rem;
-  padding-bottom: 3.125rem;
+  padding-bottom: 6.25rem;
   position: relative;
   z-index: 10;
   color: white;
@@ -285,7 +290,10 @@ body {
 
 .main-features-item {
   width: 18rem;
-  padding: 1.875rem 3.125rem;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
   min-height: 100%;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
 }
@@ -389,14 +397,14 @@ body {
   font-size: 1.75rem;
   line-height: 160%;
   color: #292d33;
-  margin: 2.1875rem 0 0.75rem;
+  margin: 2.1875rem 0 .625rem;
 }
 
 .steps-text {
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
-  margin: 0.625rem 0 1.25rem;
+  margin-top: 0.625rem;
 }
 
 .steps-link {
@@ -407,6 +415,7 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #5c8ee6;
+  margin-top: 1.25rem;
 }
 
 .steps-link:before {
@@ -446,7 +455,7 @@ body {
 }
 
 .card-content {
-  padding: 2.5rem 3.125rem;
+  padding: 40px 20px 40px 50px;
 }
 
 .card-title {
@@ -465,21 +474,92 @@ body {
   font-size: 16px;
   line-height: 160%;
   color: #828a99;
-  margin-bottom: 24.625rem;
+  margin-bottom:  22.625rem;
+  max-width: 310px;
 }
 
 .card-img {
   position: absolute;
   bottom: 0;
-  left: 0;
   right: 0;
-  max-width: 100%;
   z-index: 0;
+}
+
+/* trade-marks */
+.trade-marks-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-mark {
+  flex-basis: 50%;
+  border: 1px solid #ebebf0;
+  text-decoration: none;
+  transition: border 0.2s;
+  display: flex;
+  align-items: flex-start;
+  padding: 50px
+}
+
+.card-mark:hover .card-mark-title {
+  color: #5c8ee6;
+}
+
+.card-mark:hover .mark-icon {
+  fill: #5c8ee6;
+}
+
+.card-mark:hover {
+  border-color: #5c8ee6;
+}
+
+.mark-icon {
+  width: 180px;
+  height: 180px;
+  fill: #828A99;
+  transition: fill 0.2s;
+}
+
+.trade-mark-content {
+  padding-left: 50px;
+}
+
+.card-mark-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 160%;
+  color: #292d33;
+  margin-top: 0;
+  margin-bottom: 10px;
+  transition: color 0.2s;
+}
+
+.card-mark-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+  max-width: 360px;
 }
 
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
+  }
+  .card-mark {
+    padding: 30px;
+  }
+  .mark-icon {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+  }
+  .trade-mark-content {
+    padding-left: 30px;
+  }
+  .card-mark-text {
+    width: auto;
   }
 }
 
@@ -506,7 +586,7 @@ body {
 
 @media (max-width: 1200px) {
   .container {
-    max-width: 60rem;
+    max-width: 740px;
   }
   .header-phone {
     display: none;
@@ -529,11 +609,47 @@ body {
   .card {
     flex-basis: 50%;
   }
+  .card-title {
+    font-size: 20px;
+  }
+  .trade-marks-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-mark {
+    position: relative;
+    padding: 30px;
+    flex-basis: 100%;
+    flex-direction: column;
+  }
+  .mark-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+  .trade-mark-content {
+    padding: 0;
+  }
+  .card-mark-title {
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    margin: 0px;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+  .card-mark-text {
+    margin-top: 20px;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 992px) {
   html {
     font-size: 14px;
+  }
+  .container {
+    max-width: 740px;
   }
   .header-nav {
     display: none;
