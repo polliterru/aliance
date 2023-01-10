@@ -97,3 +97,23 @@ checkWidthWindow()
 window.addEventListener('resize', () => {
   checkWidthWindow()
 })
+
+const swiperBlog = new Swiper('.blog-slider', {
+  speed: 400,
+  freeMode: true,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: '.slider-blog-button-next',
+    prevEl: '.slider-blog-button-prev',
+  },
+  breakpoints: {
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 2,
+    },
+  }
+})
