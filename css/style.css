@@ -39,8 +39,9 @@ img {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1480px;
   margin: auto;
+  padding: 0 20px;
 }
 
 .section {
@@ -836,7 +837,7 @@ img {
 
 @media (max-width: 1200px) {
   .container {
-    max-width: 740px;
+    max-width: 1100px;
   }
   .seporaiter {
     width: 118px;
@@ -889,6 +890,11 @@ img {
     margin-top: 20px;
     max-width: 100%;
   }
+  .founder-wrupper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .founder-photo {
     display: none;
   }
@@ -911,8 +917,13 @@ img {
   html {
     font-size: 14px;
   }
-  .container {
-    max-width: 740px;
+  .main-title {
+    font-size: 64px;
+  }
+  .section-title,
+  .founder-title,
+  .clients-title {
+    font-size: 50px;
   }
   .header-nav {
     display: none;
@@ -1050,9 +1061,12 @@ img {
   }
   .social-link {
     padding-right: 16px;
-  }
+  } 
   .clients-wrupper {
     flex-direction: column;
+  }
+  .clients-title {
+    max-width: 650px;
   }
 }
 
@@ -1088,7 +1102,8 @@ img {
 
 @media (max-width: 576px) {
   .container {
-    max-width: 90%;
+    max-width: 92%;
+    padding: 0;
   }
   .section {
     margin: 98px 0;
@@ -1096,6 +1111,12 @@ img {
   .seporaiter {
     width: 95px;
     height: 2px;
+  }
+  .section-title,
+  .founder-title,
+  .clients-title {
+    font-size: 36px;
+    line-height: 120%;
   }
   .navbar {
     height: 76.8px;
@@ -1147,6 +1168,9 @@ img {
     font-size: 21px;
     line-height: 130%;
     letter-spacing: -0.9px;
+  }
+  .steps-text {
+    font-size: 14px;
   }
   .button-link {
     margin-top: 24px;
@@ -1207,4 +1231,20 @@ img {
   .clients-list-item:last-child {
     margin-bottom: 0;
   }
+  .blog-card {
+    min-height: 195px;
+    padding: 20px;
+  }
+  .card-blog-title {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .card-blog-text {
+    display: none;
+  }
+  .blog-slider-footer {
+    margin-top: 0;
+  }
 }
+
