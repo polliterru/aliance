@@ -473,7 +473,7 @@ img {
 }
 
 .card-content {
-  padding-top: 36px;;
+  padding-top: 36px;
   padding-right: 20px;
   padding-left: 48px;
   padding-bottom: 33px;
@@ -790,7 +790,6 @@ img {
 .section-cta-wrupper {
   padding-bottom: 100px;
   position: relative;
-
 }
 
 .cta-img {
@@ -854,11 +853,11 @@ img {
   font-size: 16px;
   line-height: 160%;
   color: #828a99;
-  transition: top 0.2s, left 0.2s, font-size 0.2s,;
+  transition: top 0.2s, left 0.2s, font-size 0.2s;
 }
 
 .input:focus {
-  border: 1px solid #5C8EE5 ;
+  border: 1px solid #5c8ee5;
   outline: 0;
 }
 
@@ -873,6 +872,11 @@ img {
 .notify-icon {
   width: 14px;
   height: 14px;
+}
+
+.cta {
+  margin-top: 265px;
+  margin-bottom: 0;
 }
 
 .cta-form-footer {
@@ -903,6 +907,107 @@ img {
   max-width: 380px;
 }
 
+/* footer */
+.footer-top {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo-svg {
+  width: 200px;
+  height: 63px;
+}
+
+.footer-phone {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 160%;
+  text-decoration-line: underline;
+  color: #292d33;
+}
+
+.adress {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #292d33;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-info-email {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #292d33;
+}
+
+.footer-social-link {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-seporator {
+  color: #ebebf0;
+}
+
+.footer-bottom {
+  padding: 50px 0;
+  display: flex;
+}
+
+.footer-menu-wrupper {
+  display: flex;
+}
+
+.footer-menu-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #292D33;
+}
+
+.footer-menu-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.footer-menu-coumn-2 {
+  display: flex;
+  columns: 2 400px;
+}
+
+.footer-menu-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828A99;
+  margin-bottom: 15px;
+  display: block;
+}
 
 @media (max-width: 1700px) {
   html {
