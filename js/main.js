@@ -33,8 +33,8 @@ const swiperFeatures = new Swiper('.swiper-features', {
   freeMode: true,
   autoHeight: true,
   navigation: {
-    nextEl: '.slider-button-next',
-    prevEl: '.slider-button-prev',
+    nextEl: '.slider-features-button-next',
+    prevEl: '.slider-features-button-prev',
   },
   breakpoints: {
     // when window width is >= 576px
