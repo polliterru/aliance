@@ -35,7 +35,11 @@ img {
 }
 
 .bg-gray {
-  background: #f0f2f5;
+  background-color: #f0f2f5;
+}
+
+.bg-light-gray {
+  background-color: #fafbfc !important;
 }
 
 .mobile-menu {
@@ -866,7 +870,7 @@ img {
   font-size: 16px;
   line-height: 160%;
   color: #828a99;
-  transition: top 0.2s, left 0.2s, font-size 0.2s;
+  transition: top 0.2s, left 0.2s, font-size 0.2s, padding 0.2s;
 }
 
 .input:focus {
@@ -874,12 +878,12 @@ img {
   outline: 0;
 }
 
-.input:focus ~ .input-group-label,
-.input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
-  top: -12px;
+.input:focus ~ .input-group-label {
+  top: -8px;
   left: 20px;
   font-size: 10px;
   background-color: #f0f2f5;
+  padding: 0 4px;
 }
 
 .notify-icon {
@@ -1084,12 +1088,12 @@ img {
   opacity: 1;
 }
 
-.modal.is-open .modal-dilog{
+.modal.is-open .modal-dialog{
   opacity: 1;
   transform: translateY(0);
 }
 
-.modal-dilog {
+.modal-dialog {
   margin: auto;
   max-width: 460px;
   padding: 40px 50px;
