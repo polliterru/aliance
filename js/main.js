@@ -2,18 +2,29 @@ const navbar = document.querySelector(".navbar");
 const logo = document.querySelector(".logo-svg use");
 const mobileMenuToggle = document.querySelector(".js-mobile-menu-toggle");
 const mobileMenu = document.querySelector(".mobile-menu");
+const isMainPage = document.body.classList.contains('main-page');
+// создать константу isMainPage 
+// она будет проверять наличие класса у body ВЕРНЕТ TRUE ИЛИ FALSE !!!!!!!!!!!
 
-const addNavbarLight = () => {
-  navbar.classList.add("navbar-light");
-  logo.href.baseVal = "img/sprite.svg#logo";
+const LightModeOn = () => {
+  navbar.classList.add("navbar-light"); // logo replace вынести в css
 };
-const removeNavbarLight = () => {
-  navbar.classList.remove("navbar-light");
-  logo.href.baseVal = "img/sprite.svg#logo-light";
+const LightModeOff = () => {
+  navbar.classList.remove("navbar-light"); // logo replace вынести в css
 };
+
+const changeNavHeight = (height) => {
+  navbar.style.height = height;
+};
+// ф-я замены высоты
 
 window.addEventListener("scroll", () => {
-  window.scrollY > 99 ? addNavbarLight() : removeNavbarLight();
+  window.scrollY > 99 ? changeNavHeight('72px') : changeNavHeight('94px'); // вызывать ф-ю замены высоты
+  if(isMainPage) {
+    window.scrollY > 99 ? LightModeOn() : LightModeOff();
+  }
+  // проверка isMainPage 
+  // если TRUE то вызывать функцию переключения классов (добавление или удаление)
 });
 
 mobileMenuToggle.addEventListener("click", () => {

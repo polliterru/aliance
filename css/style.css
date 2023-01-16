@@ -263,9 +263,24 @@ img {
 }
 
 .navbar-light {
-  height: 74px;
   background-color: #fff;
   color: #292d33;
+}
+
+.logo-dark {
+  display: none;
+}
+
+.navbaf-skroll {
+  height: 72px;
+}
+
+.navbar-light .logo-light {
+  display: none;
+}
+
+.navbar-light .logo-dark {
+  display: block;
 }
 
 .navbar-light .burger-button {
@@ -1088,7 +1103,7 @@ img {
   opacity: 1;
 }
 
-.modal.is-open .modal-dialog{
+.modal.is-open .modal-dialog {
   opacity: 1;
   transform: translateY(0);
 }
@@ -1135,8 +1150,8 @@ img {
 }
 
 .modal-close svg {
-  width:24px;
-  height:24px;
+  width: 24px;
+  height: 24px;
 }
 
 .modal-input-group-wrapper {
@@ -1161,6 +1176,90 @@ img {
 .modal-form-button {
   font-size: 14px;
   padding: 20px 112.5px;
+}
+
+/* page-heading */
+
+.page-heading {
+  background-color: #f0f2f5;
+  padding: 50px 0;
+  margin-top: 94px;
+}
+.page-heading-container {
+  display: flex;
+}
+
+.page-heading-container {
+  position: relative;
+}
+
+.page-heading-wrapper {
+  width: 100%;
+  max-width: 960px;
+}
+.page-heading-img {
+  max-width: 480px;
+  max-height: 240px;
+}
+
+.page-heading-title {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  color: #292d33;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-item {
+  display: flex;
+}
+
+.breadcrumb-item,
+.breadcrumb-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.breadcrumb-item span {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.breadcrumb-item.active {
+  color: #292d33;
+}
+
+.page-heading-img {
+  width: 480px;
+  height: 240px;
+  position: absolute;
+  bottom: -50px;
+  right: -20px;
+}
+
+.page-heading-bg {
+  background-image: url(../img/page-heading-bg.jpg);
+}
+
+.page-heading-bg .page-heading-title,
+.page-heading-bg .breadcrumb-item, 
+.page-heading-bg .breadcrumb-item.active, 
+.page-heading-bg .breadcrumb-link {
+  color: #fff;
+}
+
+.page-heading-bg .page-heading-wrapper {
+  max-width: 1200px;
 }
 
 @media (max-width: 1700px) {
@@ -1758,5 +1857,16 @@ img {
   }
   .footer-menu-link {
     font-size: 14px;
+  }
+  .page-heading-title {
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .breadcrumb-item,
+  .breadcrumb-link {
+    font-size: 12px;
+    line-height: 19px;
   }
 }
