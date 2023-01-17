@@ -20,7 +20,7 @@
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
-          <a href="./about.html" class="mobile-menu-link">О компании</a>
+          <a href="./about.php" class="mobile-menu-link">О компании</a>
         </li>
         <li class="mobile-menu-nav-item">
           <a href="#" class="mobile-menu-link">Контрактное производство</a>
@@ -114,7 +114,7 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="./about.html" class="header-nav-link">О компании</a>
+          <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Контрактное производство</a>
