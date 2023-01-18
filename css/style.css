@@ -892,8 +892,12 @@ img {
   border: 1px solid #5c8ee5;
   outline: 0;
 }
-
-.input:focus ~ .input-group-label {
+/* .input:focus ~ .input-group-label,
+.input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
+  top: -12px;
+} */
+.input:focus ~ .input-group-label,
+.input:not(:placeholder-shown) ~ .input-group-label {
   top: -8px;
   left: 20px;
   font-size: 10px;

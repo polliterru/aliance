@@ -3,7 +3,7 @@
     <div class="container cta-container">
       <img src="./img/spray.png" alt="call to action" class="cta-img">
       <div class="cta-from-wrapper">
-        <form action="./handler.php" class="cta-form">
+        <form action="./handler.php" method="POST" class="cta-form">
           <h2 class="section-title cta-form-title">
             Хотите сотрудничать?
           </h2>
@@ -13,11 +13,11 @@
           </p>
           <div class="input-group-wrapper">
             <div class="input-group">
-              <input id="user-name" type="text" class="input">
+              <input id="user-name" type="text" class="input" name="username" placeholder=" ">
               <label class="input-group-label" for="user-name">Имя</label>
             </div>
             <div class="input-group">
-              <input id="user-phone" type="tel" class="input">
+              <input id="user-phone" type="tel" class="input" name="userphone" placeholder=" ">
               <label class="input-group-label" for="user-phone">Номер телефона</label>
             </div>
           </div>
