@@ -1,48 +1,4 @@
-<?php 
-  require_once('footer.php');
-?>
-<?php 
-  require_once('cta.php');
-?>
-<?php 
-  require_once('clients.php');
-?>
-<?php 
-  require_once('founder.php');
-?>
-<?php 
-  require_once('heading.php');
-?>
-<?php 
-  require_once('header-dark.php');
-?>
-
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css?v=1">
-  <title>О компании - Aliance Production</title>
-</head>
-
-<body>
-  <?php the_header_dark(); ?>
-  <!-- header -->
-  <?php heading(); ?>
-  <!-- page-heading -->
-  <?php founder(); ?>
-  <!-- ./section founder -->
-  <?php clients(); ?>
-  <!-- /.clients -->
-  <?php cta(); ?>
-  <!-- /.section calltoaction -->
-  <?php footer(); ?>
-  <!-- /.footer -->
+<?php function modal() { ?>
   <div class="modal">
     <div class="modal-dialog">
       <h2 class="modal-title">Есть вопросы?</h2>
@@ -84,9 +40,4 @@
     </div>
     <!-- modal-dialog -->
   </div>
-  <!-- /.modal -->
-  <script src="./js/swiper-bundle.min.js"></script>
-  <script src="./js/main.js"></script>
-</body>
-
-</html>
+<?php } ?>
