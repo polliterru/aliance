@@ -226,5 +226,3 @@ const maskOptions = {
 elements.forEach((element) => {
   IMask(element, maskOptions)
 })
-
-openModal('modal-success')
