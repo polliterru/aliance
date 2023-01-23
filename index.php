@@ -1,32 +1,15 @@
 <?php 
   require_once('footer.php');
-?>
-<?php 
   require_once('cta.php');
-?>
-<?php 
   require_once('blog.php');
-?>
-<?php 
   require_once('clients.php');
-?>
-<?php 
   require_once('founder.php');
-?>
-<?php 
   require_once('marks.php');
-?>
-<?php 
   require_once('production.php');
-?>
-<?php 
   require_once('steps.php');
-?>
-<?php 
   require_once('header.php');
-?>
-<?php 
   require_once('modal.php');
+  require_once('modal-success.php');
 ?>
 
 <!DOCTYPE html>
@@ -113,25 +96,22 @@
     </div>
   </section>
   <!-- /.main.main-image -->
-  <?php steps(); ?>
-  <!-- /.section.section-light -->
-  <?php production(); ?>
-  <!-- section production -->
-  <?php marks(); ?>
-  <!-- /.trade-marks -->
-  <?php founder(); ?>
-  <!-- ./section founder -->
-  <?php clients(); ?>
-  <!-- /.clients -->
-  <?php blog(); ?>
-  <!-- blog -->
-  <?php cta(); ?>
-  <!-- /.section calltoaction -->
-  <?php footer(); ?>
-  <!-- /.footer -->
-  <?php modal(); ?>
-  <!-- /.modal -->
+  <?php 
+    steps();
+    production();
+    marks();
+    founder();
+    clients();
+    blog();
+    cta();
+    footer();
+    modal();
+    modal_success();
+  ?>
+
   <script src="./js/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+  <script src="https://unpkg.com/imask"></script>
   <script src="./js/main.js"></script>
 </body>
 

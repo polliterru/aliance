@@ -128,22 +128,103 @@ const swiperBlog = new Swiper(".blog-slider", {
     },
   },
 });
-const modal = document.querySelector('.modal');
-const modalDialog = document.querySelector('.modal-dialog');
 
-document.addEventListener('click', (event) => {
-  if (
-    event.target.dataset.toggle == 'modal' ||
-    event.target.parentNode.dataset.toggle == 'modal' ||
-    (!event.composedPath().includes(modalDialog) && 
-      modal.classList.contains('is-open'))
-  ) {
-    modal.classList.toggle('is-open');
+// глобальный объект события открытия модального окна
+const modalOpenEvents = {
+  target: null
+}
+// ф-я открытия модалки
+const openModal = (modalClassName) => {
+  const selector = `.${modalClassName}`
+  const modal = document.querySelector(selector)
+  modal.classList.add('is-open')
+  // записываем в глобальный объект текущее открытое модальное окно
+  modalOpenEvents.target = selector
+}
+
+// ф-я закрытия модалки
+const closeModal = () => {
+  // Получаем текущее открытое модальное окно
+  const modal = document.querySelector(modalOpenEvents.target)
+
+  if (modal) {
+    modal.classList.remove('is-open')
   }
-});
+}
+// .js-open-modal - общий класс для открытия модалки
+// data-modal-сlass="your-modal-class" - атрибут с классом модалки которая откр. по клику на эту кнопку
+const openModalBtns = document.querySelectorAll('.js-open-modal')
+openModalBtns.forEach(btn => {
+  btn.addEventListener('click', () => openModal(btn.dataset.modalClass))
+})
+// .js-close-modal - общий класс для закрытия модалки
+const closeModalBtns = document.querySelectorAll('.js-close-modal')
+closeModalBtns.forEach(btn => {
+  btn.addEventListener('click', closeModal)
+})
+
 
 document.addEventListener('keyup', (event) => {
   if (event.key == 'Escape' && modal.classList.contains('is-open')) {
     modal.classList.toggle('is-open');
   }
 });
+
+const forms = document.querySelectorAll('form');
+
+forms.forEach((form) => {
+  const validator = new JustValidate(form, {
+    errorFieldCssClass: 'is-invalid',
+  });
+
+  validator
+    .addField('[name=username]', [
+      {
+        rule: 'required',
+        errorMessage: 'Укажите имя',
+      },
+      {
+        rule: 'maxLength',
+        value: 50,
+        errorMessage: 'Максимально 50 символов',
+      },
+    ])
+    .addField('[name=userphone]', [
+      {
+        rule: 'required',
+        errorMessage: 'Укажите телефон',
+      },
+    ])
+    .onSuccess((event) => {
+      const thisForm = event.target;
+      const formData = new FormData(thisForm);
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute('action'), {
+          method: thisForm.getAttribute('method'),
+          body: formData,
+        }).then((response) => {
+          if (response.ok) {
+            thisForm.reset();
+            if (modalOpenEvents.target === '.modal-cta') {
+              closeModal('modal-cta')
+            }
+            openModal('modal-success')
+          } else {
+            alert("Ошибка. Текст ошибки: ".response.statusText);
+          }
+        });
+
+      };
+      ajaxSend(formData)
+    });
+});
+
+const elements = document.querySelectorAll('[name=userphone]')
+const maskOptions = {
+  mask: '+{7}(000)000-00-00'
+}
+elements.forEach((element) => {
+  IMask(element, maskOptions)
+})
+
+openModal('modal-success')

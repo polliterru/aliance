@@ -96,7 +96,7 @@
       <div class="footer-wrapper">
         <div class="footer-legal">
           <p class="copyriht">
-            &#169; 2022 «Aliance Production». Все права защищены.
+            &#169; <?php echo date('d.m.Y')?> «Aliance Production». Все права защищены.
           </p>
           <a href="#" class="footer-policy">Политики конфиденциальности</a>
         </div>

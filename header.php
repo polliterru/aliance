@@ -118,7 +118,7 @@
         </svg>
         <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
       </div>
-      <button class="navbar-button button" data-toggle="modal">
+      <button class="navbar-button button js-open-modal" data-modal-class="modal-cta">
         <svg class="button-icon">
           <use href="./img/sprite.svg#phone"></use>
         </svg>
