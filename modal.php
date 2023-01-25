@@ -15,11 +15,11 @@
       <form action="./handler.php" method="POST" class="modal-form">
         <div class="input-group-wrapper modal-input-group-wrapper">
           <div class="input-group modal-input-group">
-            <input id="modal-user-name" type="text" name="username" class="input modal-input">
+            <input id="modal-user-name" type="text" placeholder=" " name="username" class="input modal-input">
             <label class="input-group-label bg-light-gray" for="modal-user-name">Имя</label>
           </div>
           <div class="input-group modal-input-group">
-            <input id="modal-user-phone" type="tel" name="userphone" class="input modal-input">
+            <input id="modal-user-phone" type="tel" placeholder=" " name="userphone" class="input modal-input">
             <label class="input-group-label bg-light-gray" for="modal-user-phone">Номер телефона</label>
           </div>
         </div>

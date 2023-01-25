@@ -1,7 +1,7 @@
 <?php 
   require_once('header-dark.php');
   require_once('heading.php');
-  require_once('founder.php');
+  require_once('steps.php');
   require_once('clients.php');
   require_once('cta.php');
   require_once('footer.php');
@@ -25,18 +25,14 @@
 <body>
 
   <?php 
-    $headingParams = array(
-      'title' => 'О компании',
-      'show_image' => false,
-    );
-    the_header_dark();
-    heading($headingParams);
-    founder(); 
-    clients(); 
-    cta(); 
-    footer(); 
-    modal(); 
-    modal_success(); 
+  the_header_dark(); 
+  heading(); 
+  steps(); 
+  clients(); 
+  cta(); 
+  footer(); 
+  modal(); 
+  modal_success(); 
   ?>
   
   <script src="./js/swiper-bundle.min.js"></script>

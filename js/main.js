@@ -149,6 +149,7 @@ const closeModal = () => {
 
   if (modal) {
     modal.classList.remove('is-open')
+    modalOpenEvents.target = null
   }
 }
 // .js-open-modal - общий класс для открытия модалки
@@ -165,10 +166,10 @@ closeModalBtns.forEach(btn => {
 
 
 document.addEventListener('keyup', (event) => {
-  if (event.key == 'Escape' && modal.classList.contains('is-open')) {
-    modal.classList.toggle('is-open');
+  if (event.key == 'Escape' && modalOpenEvents.target) {
+    closeModal()
   }
-});
+})
 
 const forms = document.querySelectorAll('form');
 
@@ -185,8 +186,8 @@ forms.forEach((form) => {
       },
       {
         rule: 'maxLength',
-        value: 50,
-        errorMessage: 'Максимально 50 символов',
+        value: 30,
+        errorMessage: 'Максимально 30 символов',
       },
     ])
     .addField('[name=userphone]', [
