@@ -9,7 +9,11 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog-lab.jpg" alt="Карточка блог" class="blog-card-img">
+            <picture class="blog-card-img">
+              <source type="image/webp" srcset="img/blog-lab.webp">
+              <source type="image/jpg" srcset="img/blog-lab.jpg">
+              <img src="./img/blog-lab.jpg" alt="Карточка блог" class="blog-card-img">
+            </picture>
             <h3 class="card-blog-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -19,7 +23,11 @@
             </p>
           </a>
           <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
+            <picture class="blog-card-img">
+              <source type="image/webp" srcset="img/blog.webp">
+              <source type="image/jpg" srcset="img/blog.jpg">
+              <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
+            </picture>
             <h3 class="card-blog-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -29,7 +37,11 @@
             </p>
           </a>
           <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
+            <picture picture class="blog-card-img">
+              <source type="image/webp" srcset="img/blog.webp">
+              <source type="image/jpg" srcset="img/blog.jpg">
+              <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
+            </picture>
             <h3 class="card-blog-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -39,7 +51,11 @@
             </p>
           </a>
           <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
+            <picture class="blog-card-img">
+              <source type="image/webp" srcset="img/blog.webp">
+              <source type="image/jpg" srcset="img/blog.jpg">
+              <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
+            </picture>
             <h3 class="card-blog-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>

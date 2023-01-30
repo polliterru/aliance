@@ -12,7 +12,11 @@
               воздействия.
             </p>
           </div>
-          <img class="card-img" src="./img/avto-him.png" alt="Автомобильная химия">
+          <picture class="card-img">
+            <source type="image/webp" srcset="img/avto-him.webp">
+            <source type="image/jpg" srcset="img/avto-him.png">
+            <img src="./img/avto-him.png" alt="Автомобильная химия">
+          </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -22,7 +26,11 @@
               независимые элементы.
             </p>
           </div>
-          <img class="card-img" src="./img/bit-him.png" alt="Бытовая химия">
+          <picture class="card-img">
+            <source type="image/webp" srcset="img/bit-him.webp">
+            <source type="image/jpg" srcset="img/bit-him.png">
+            <img src="./img/bit-him.png" alt="Бытовая химия">
+          </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -31,7 +39,11 @@
               Лишь интерактивные прототипы призваны к ответу.
             </p>
           </div>
-          <img class="card-img" src="./img/dezinfect.png" alt="Дезинфекция">
+          <picture class="card-img">
+            <source type="image/webp" srcset="img/dezinfect.webp">
+            <source type="image/jpg" srcset="img/dezinfect.png">
+            <img src="./img/dezinfect.png" alt="Дезинфекция">
+          </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -41,7 +53,11 @@
               воздействия.
             </p>
           </div>
-          <img class="card-img" src="./img/dezinfect.png" alt="Дезинфекция">
+          <picture class="card-img">
+            <source type="image/webp" srcset="img/dezinfect.webp">
+            <source type="image/jpg" srcset="img/dezinfect.png">
+            <img src="./img/dezinfect.png" alt="Дезинфекция">
+          </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -50,7 +66,11 @@
               Лишь интерактивные прототипы призваны к ответу.
             </p>
           </div>
-          <img class="card-img" src="./img/avto-him.png" alt="Автомобильная химия">
+          <picture class="card-img">
+            <source type="image/webp" srcset="img/avto-him.webp">
+            <source type="image/jpg" srcset="img/avto-him.png">
+            <img src="./img/avto-him.png" alt="Автомобильная химия">
+          </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -60,7 +80,11 @@
               разнесены на независимые элементы.
             </p>
           </div>
-          <img class="card-img" src="./img/bit-him.png" alt="Бытовая химия">
+          <picture class="card-img">
+            <source type="image/webp" srcset="img/bit-him.webp">
+            <source type="image/jpg" srcset="img/bit-him.png">
+            <img src="./img/bit-him.png" alt="Бытовая химия">
+          </picture>
         </a>
       </div>
       <!-- group-cards -->

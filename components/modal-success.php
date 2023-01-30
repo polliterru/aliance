@@ -7,7 +7,11 @@
           <use href="./img/sprite.svg#modal-close"></use>
         </svg>
       </button>
-      <img src="./img/thanks_illu.png" alt="" class="modal-success-img">
+      <picture class="modal-success-img">
+        <source type="image/webp" srcset="img/thanks_illu.webp">
+        <source type="image/jpg" srcset="img/thanks_illu.png">
+        <img src="./img/thanks_illu.png" alt="успешно" class="modal-success-img">
+      </picture>
       <h2 class="modal-title">Спасибо за заявку!</h2>
       <p class="modal-text">
         Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!

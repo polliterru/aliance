@@ -1,13 +1,19 @@
 <?php function founder() { ?>
   <section class="section founder">
     <div class="founder-photo-mobile">
-      <img src="./img/founder.jpg" alt="фтот основателя" class="founder-photo-img">
+      <picture class="founder-photo">
+        <source type="image/webp" srcset="img/founder.webp">
+        <source type="image/jpg" srcset="img/founder.jpg">
+        <img src="./img/founder.jpg" alt="фото основателя" class="founder-photo-img">
+      </picture>
     </div>
     <div class="container founder-container">
       <div class="founder-wrapper">
-        <div class="founder-photo">
-          <img src="./img/founder.jpg" alt="фтот основателя" class="founder-photo-img">
-        </div>
+        <picture class="founder-photo">
+          <source type="image/webp" srcset="img/founder.webp">
+          <source type="image/jpg" srcset="img/founder.jpg">
+          <img src="./img/founder.jpg" alt="фото основателя" class="founder-photo-img">
+        </picture>
         <div class="founder-content-wrapper">
           <div class="founder-content">
             <div class="seporaiter"></div>

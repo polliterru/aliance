@@ -1,7 +1,7 @@
 <?php 
   require_once('./components/header-dark.php');
   require_once('./components/heading.php');
-  require_once('./components/blog.php');
+  require_once('./components/production.php');
   require_once('./components/cta.php');
   require_once('./components/footer.php');
   require_once('./components/modal.php');
@@ -11,20 +11,21 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<?php $title = 'Блог'; ?>
+<?php $title = 'Контрактное производство'; ?>
 <?php require_once('./head.php'); ?>
 
 <body>
 
   <?php 
   the_header_dark(); 
+
   $headingParams = array(
-    'title' => 'Блог',
+    'title' => 'Контрактное производство',
     'show_image' => false,
-    'show_bg' => true
+    'show_bg' => false
   );
   heading($headingParams); 
-  blog();
+  production(); 
   cta(); 
   footer(); 
   modal(); 

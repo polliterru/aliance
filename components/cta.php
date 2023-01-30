@@ -1,7 +1,11 @@
 <?php function cta() { ?>
   <section class="section cta bg-gray">
     <div class="container cta-container">
-      <img src="./img/spray.png" alt="call to action" class="cta-img">
+      <picture class="cta-img">
+        <source type="image/webp" srcset="img/spray.webp">
+        <source type="image/jpg" srcset="img/spray.png">
+        <img src="./img/spray.png" alt="call to action">
+      </picture>
       <div class="cta-from-wrapper">
         <form action="./handler.php" method="POST" class="cta-form">
           <h2 class="section-title cta-form-title">

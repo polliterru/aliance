@@ -22,7 +22,11 @@
         </div>
         <?php if ($headingParams['show_image']): ?>
           <div class="page-heading-img">
-            <img src="./img/avto-him-title.png" alt="баллоны">
+            <picture>
+              <source type="image/webp" srcset="img/avto-him-title.webp">
+              <source type="image/jpg" srcset="img/avto-him-title.png">
+              <img src="./img/avto-him-title.png" alt="баллоны">
+            </picture>
           </div>
         <?php endif; ?>
       </div>
