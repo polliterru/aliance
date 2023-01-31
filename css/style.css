@@ -1,4 +1,6 @@
+@import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+@import url("https://swiper-bundle.min.css");
 
 @font-face {
   font-family: "Bebas Neue";
@@ -310,8 +312,12 @@ img {
   padding-top: 94px;
 }
 
-.main-image {
+.no-webp .main-image {
   background-image: url(../img/header-bg.png);
+}
+
+.main-image {
+  background-image: url(../img/header-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1273,8 +1279,12 @@ img {
   right: -20px;
 }
 
-.page-heading-bg {
+.no-webp .page-heading-bg {
   background-image: url(../img/page-heading-bg.jpg);
+}
+
+.page-heading-bg {
+  background-image: url(../img/page-heading-bg.webp);
 }
 
 .page-heading-bg .page-heading-title,
