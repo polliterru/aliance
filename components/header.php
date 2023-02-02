@@ -33,10 +33,10 @@
           <a href="#" class="mobile-menu-link">Собственные марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>
+              <a class="mobile-submenu-link" href="./avtohim-page.php">Автохимия AG-Tech</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автохимия AP</a>
+              <a class="mobile-submenu-link" href="./avtohim-page.php">Автохимия AP</a>
             </li>
           </ul>
           <!-- mobile-submenu -->
@@ -60,7 +60,7 @@
           <svg class="submenu-icon">
             <use href="../img/sprite.svg#mail"></use>
           </svg>
-          <a href="mail to: a.dragunov@tdaliance.ru" class="mobile-info-email">a.dragunov@tdaliance.ru</a>
+          <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">a.dragunov@tdaliance.ru</a>
         </div>
       </div>
       <!-- mobile-info -->

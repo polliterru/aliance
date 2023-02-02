@@ -31,7 +31,7 @@
             будущего проекта напрямую зависит от анализа существующих паттернов
             поведения.
           </p>
-          <button class="button main-button js-open-modal" data-modal-class="modal-cta">Подробнее о компании</button>
+          <a href="./about-page.php" class="button main-button">Подробнее о компании</a>
         </div>
         <!-- Основной слайдер -->
         <div class="swiper swiper-features">

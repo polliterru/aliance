@@ -2,10 +2,12 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-top">
-        <svg class="footer-logo-svg">
-          <use href="./img/sprite.svg#logo-dark"></use>
-        </svg>
-        <a href="+74996861014" class="footer-phone">+7 (800) 686-10-14</a>
+        <a href="/" class="footer-logo">
+          <svg class="footer-logo-svg">
+            <use href="./img/sprite.svg#logo-dark"></use>
+          </svg>
+        </a>
+        <a href="+7(800)686-10-14" class="footer-phone">+7 (800) 686-10-14</a>
         <div class="footer-social-links">
           <div class="footer-adress">
             <svg class="footer-icon">
@@ -42,7 +44,7 @@
           <h2 class="footer-menu-title">Контрактное производство</h2>
           <ul class="footer-menu-production-list footer-menu-column-2">
             <li class="footer-menu-production-item">
-              <a href="#" class="footer-menu-link">Автомобильная химия</a>
+              <a href="./avtohim-page.php" class="footer-menu-link">Автомобильная химия</a>
             </li>
             <li class="footer-menu-production-item">
               <a href="#" class="footer-menu-link">Бытовая химия</a>
@@ -66,10 +68,10 @@
           <h2 class="footer-menu-title">Собственные марки</h2>
           <ul class="footer-menu-mark-list footer-menu-mark">
             <li class="footer-menu-mark-item">
-              <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+              <a href="" class="footer-menu-link">Автохимия AG-Tech</a>
             </li>
             <li class="footer-menu-mark-item">
-              <a href="#" class="footer-menu-link">Автохимия AP</a>
+              <a href="" class="footer-menu-link">Автохимия AP</a>
             </li>
           </ul>
         </div>
@@ -77,13 +79,13 @@
         <div class="footer-menu-wrapper-info">
           <ul class="footer-menu-info-list">
             <li class="footer-menu-info-item">
-              <a href="#" class="footer-menu-link footer-menu-link-bold">О компании</a>
+              <a href="./about-page.php" class="footer-menu-link footer-menu-link-bold">О компании</a>
             </li>
             <li class="footer-menu-info-item">
-              <a href="#" class="footer-menu-link footer-menu-link-bold">Новости</a>
+              <a href="./blog-page.php" class="footer-menu-link footer-menu-link-bold">Новости</a>
             </li>
             <li class="footer-menu-info-item">
-              <a href="#" class="footer-menu-link footer-menu-link-bold">Контакты</a>
+              <a href="./contact-page.php" class="footer-menu-link footer-menu-link-bold">Контакты</a>
             </li>
           </ul>
         </div>

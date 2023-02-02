@@ -4,7 +4,7 @@
       <div class="seporaiter"></div>
       <h2 class="section-title">собственные марки</h2>
       <div class="trademark-cards">
-        <a class="trademark-card">
+        <a href="./avtohim-page.php" class="trademark-card">
           <svg class="trademark-card-logo">
             <use href="./img/sprite.svg#agtech"></use>
           </svg>
@@ -14,7 +14,7 @@
             поставленных обществом задач.
           </p>
         </a>
-        <a class="trademark-card">
+        <a href="./avtohim-page.php" class="trademark-card">
           <svg class="trademark-card-logo">
             <use href="./img/sprite.svg#ap"></use>
           </svg>

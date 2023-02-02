@@ -17,9 +17,13 @@
 
 <body>
 
-  <?php 
+  <?php  
+  $headingParams = array(
+    'title' => 'Автомобильная химия',
+    'show_image' => rtue,
+  );
   the_header_dark(); 
-  heading(); 
+  heading($headingParams); 
   steps(); 
   clients(); 
   cta(); 

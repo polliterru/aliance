@@ -16,7 +16,7 @@
                 Безусловно, сплочённость команды профессионалов позволяет оценить
                 значение форм воздействия.
               </p>
-              <a href="#" class="button-link steps-link">Оставить заявку</a>
+              <a class="button-link steps-link js-open-modal" data-modal-class="modal-cta">Оставить заявку</a>
             </li>
             <li class="steps-item swiper-slide">
               <span class="steps-num">02</span>

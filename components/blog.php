@@ -67,7 +67,7 @@
         </div>
         <!-- If we need navigation buttons -->
         <div class="blog-slider-footer">
-          <a href="#" class="button-link">Весь блог</a>
+          <a href="./blog-page.php" class="button-link">Весь блог</a>
           <div class="slider-buttons slider-buttons-visible">
             <div class="slider-blog-button-prev slider-button-prev">
               <svg class="arrow-slider">
