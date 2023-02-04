@@ -1658,10 +1658,11 @@ img {
   border: none;
 }
 
-.product-title-non 
-.section-title, .seporaiter {
+.product-title-non .section-title,
+.product-title-non .seporaiter {
   display: none;
 }
+
 
 @media (max-width: 1700px) {
   html {
