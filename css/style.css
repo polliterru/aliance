@@ -1671,6 +1671,11 @@ img {
   border: none;
 }
 
+.product-title-non 
+.section-title, .seporaiter {
+  display: none;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;

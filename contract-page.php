@@ -18,20 +18,25 @@
 <body>
 
   <?php 
-  the_header_dark(); 
+    the_header_dark(); 
 
-  $headingParams = array(
-    'title' => 'Контрактное производство',
-    'show_image' => false,
-    'show_bg' => false
-  );
-  heading($headingParams); 
-  product(); 
-  text_block(); 
-  cta(); 
-  footer(); 
-  modal(); 
-  modal_success(); 
+    $headingParams = array(
+      'title' => 'Контрактное производство',
+      'show_image' => false,
+      'show_bg' => false
+    );
+    heading($headingParams); 
+  ?>
+    <div class="product-title-non">
+      <?php product(); ?>
+    </div>
+
+  <?php 
+    text_block(); 
+    cta(); 
+    footer(); 
+    modal(); 
+    modal_success(); 
   ?>
   
   <?php require_once('./scripts.php'); ?>
