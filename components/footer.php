@@ -53,7 +53,7 @@
               <a href="#!" class="footer-menu-link">Дезинфицирующие средства</a>
             </li>
             <li class="footer-menu-production-item">
-              <a href="" class="footer-menu-link">Пищевые аэрозоли</a>
+              <a href="#!" class="footer-menu-link">Пищевые аэрозоли</a>
             </li>
             <li class="footer-menu-production-item">
               <a href="#!" class="footer-menu-link">Косметическая продукция</a>
