@@ -5,9 +5,6 @@
   require_once('./components/footer.php');
 ?>
 
-<!DOCTYPE html>
-<html lang="ru">
-
 <?php $title = 'Aliance - Политика конфиденциальности'; ?>
 <?php require_once('./head.php'); ?>
 

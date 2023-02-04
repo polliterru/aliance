@@ -7,9 +7,6 @@
   require_once('./components/modal-success.php');
 ?>
 
-<!DOCTYPE html>
-<html lang="ru">
-
 <?php $title = 'Aliance - Контакты'; ?>
 <?php require_once('./head.php'); ?>
 

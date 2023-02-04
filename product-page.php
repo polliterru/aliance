@@ -8,9 +8,6 @@
   require_once('./components/modal-success.php');
 ?>
 
-<!DOCTYPE html>
-<html lang="ru">
-
 <?php $title = 'Aliance - Собственные торговые марки'; ?>
 <?php require_once('./head.php'); ?>
 

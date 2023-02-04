@@ -9,9 +9,6 @@
   require_once('./components/modal-success.php');
 ?>
 
-<!DOCTYPE html>
-<html lang="ru">
-
 <?php $title = 'Aliance - Контрактное производство'; ?>
 <?php require_once('./head.php'); ?>
 

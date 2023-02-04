@@ -13,9 +13,6 @@
   require_once('./components/modal-success.php');
 ?>
 
-<!DOCTYPE html>
-<html lang="ru">
-
 <?php $title = 'Aliance - Автомобильная химия'; ?>
 <?php require_once('./head.php'); ?>
 
