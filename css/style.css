@@ -255,24 +255,11 @@ img {
   text-decoration: none;
   font-size: 16px;
   color: inherit;
+  transition: color 0.25s;
 }
 
-.header-phone-link:after {
-  content: "";
-  width: 0;
-  height: 2px;
-  position: absolute;
-  bottom: -1px;
-  background-color: #5c8ee6;
-  transition: width 0.25s;
-  right: 0;
-  left: auto;
-}
-
-.header-phone-link:hover:after {
-  width: 100%;
-  right: auto;
-  left: 0;
+.header-phone-link:hover {
+  color: #3a71d1;
 }
 
 .phone-icon {
