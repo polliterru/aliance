@@ -1,10 +1,10 @@
-<?php function production() { ?>
+<?php function product() { ?>
   <section class="section production">
     <div class="container">
       <div class="seporaiter"></div>
       <h2 class="section-title">Контрактное производство</h2>
       <div class="group-cards">
-        <a href="#" class="card">
+        <a href="#!" class="card">
           <div class="card-content">
             <h3 class="card-title">Автомобильная химия</h3>
             <p class="card-text">
@@ -18,7 +18,7 @@
             <img src="./img/avto-him.png" alt="Автомобильная химия">
           </picture>
         </a>
-        <a href="#" class="card">
+        <a href="#!" class="card">
           <div class="card-content">
             <h3 class="card-title">Бытовая химия</h3>
             <p class="card-text">
@@ -32,7 +32,7 @@
             <img src="./img/bit-him.png" alt="Бытовая химия">
           </picture>
         </a>
-        <a href="#" class="card">
+        <a href="#!" class="card">
           <div class="card-content">
             <h3 class="card-title">Дезинфицирующие средства</h3>
             <p class="card-text">
@@ -45,7 +45,7 @@
             <img src="./img/dezinfect.png" alt="Дезинфекция">
           </picture>
         </a>
-        <a href="#" class="card">
+        <a href="#!" class="card">
           <div class="card-content">
             <h3 class="card-title">Пищевые аэрозоли</h3>
             <p class="card-text">
@@ -59,7 +59,7 @@
             <img src="./img/dezinfect.png" alt="Дезинфекция">
           </picture>
         </a>
-        <a href="#" class="card">
+        <a href="#!" class="card">
           <div class="card-content">
             <h3 class="card-title">Косметическая продукция</h3>
             <p class="card-text">
@@ -72,7 +72,7 @@
             <img src="./img/avto-him.png" alt="Автомобильная химия">
           </picture>
         </a>
-        <a href="#" class="card">
+        <a href="#!" class="card">
           <div class="card-content">
             <h3 class="card-title">Краски аэрозольные</h3>
             <p class="card-text">

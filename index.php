@@ -5,7 +5,7 @@
   require_once('./components/clients.php');
   require_once('./components/founder.php');
   require_once('./components/marks.php');
-  require_once('./components/production.php');
+  require_once('./components/promo_block.php');
   require_once('./components/steps.php');
   require_once('./components/header.php');
   require_once('./components/modal.php');
@@ -87,9 +87,8 @@
       </div>
     </section>
 
-    <?php 
+    <?php
       steps();
-      production();
       marks();
       founder();
       clients();

@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<?php $title = 'Собственные торговые марки'; ?>
+<?php $title = 'Aliance - Собственные торговые марки'; ?>
 <?php require_once('./head.php'); ?>
 
 <body>

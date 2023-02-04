@@ -12,25 +12,25 @@
               <a class="mobile-submenu-link" href="./avtohim-page.php">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Бытовая химия</a>
+              <a class="mobile-submenu-link" href="#!">Бытовая химия</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Дезинфицирующие средства</a>
+              <a class="mobile-submenu-link" href="#!">Дезинфицирующие средства</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
+              <a class="mobile-submenu-link" href="#!">Пищевые аэрозоли</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Косметическая продукция</a>
+              <a class="mobile-submenu-link" href="#!">Косметическая продукция</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
+              <a class="mobile-submenu-link" href="#!">Краски аэрозольные</a>
             </li>
           </ul>
           <!-- mobile-submenu -->
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Собственные марки</a>
+          <a href="#!" class="mobile-menu-link">Собственные марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="./avtohim-page.php">Автохимия AG-Tech</a>
@@ -65,12 +65,12 @@
       </div>
       <!-- mobile-info -->
       <div class="mobile-social-link">
-        <a href="#" class="social-link">
+        <a href="#!" class="social-link">
           <svg class="submenu-social-icon">
             <use href="../img/sprite.svg#vk"></use>
           </svg>
         </a>
-        <a href="#" class="mobile-social-link">
+        <a href="#!" class="mobile-social-link">
           <svg class="submenu-social-icon">
             <use href="../img/sprite.svg#inst"></use>
           </svg>

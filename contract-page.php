@@ -1,7 +1,8 @@
 <?php 
   require_once('./components/header-dark.php');
   require_once('./components/heading.php');
-  require_once('./components/production.php');
+  require_once('./components/product.php');
+  require_once('./components/text_block.php');
   require_once('./components/cta.php');
   require_once('./components/footer.php');
   require_once('./components/modal.php');
@@ -11,7 +12,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<?php $title = 'Контрактное производство'; ?>
+<?php $title = 'Aliance - Контрактное производство'; ?>
 <?php require_once('./head.php'); ?>
 
 <body>
@@ -25,7 +26,8 @@
     'show_bg' => false
   );
   heading($headingParams); 
-  production(); 
+  product(); 
+  text_block(); 
   cta(); 
   footer(); 
   modal(); 

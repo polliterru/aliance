@@ -23,13 +23,13 @@
           </div>
         </div>
         <div class="footer-social-link">
-          <a href="#" class="social-link">
+          <a href="#!" class="social-link">
             <svg class="footer-icon">
               <use href="./img/sprite.svg#vk"></use>
             </svg>
           </a>
-          <a href="#" class="footer-icon">
-            <svg class="submenu-social-icon">
+          <a href="#!" class="social-link">
+            <svg class="footer-icon">
               <use href="./img/sprite.svg#inst"></use>
             </svg>
           </a>
@@ -47,19 +47,19 @@
               <a href="./avtohim-page.php" class="footer-menu-link">Автомобильная химия</a>
             </li>
             <li class="footer-menu-production-item">
-              <a href="#" class="footer-menu-link">Бытовая химия</a>
+              <a href="#!" class="footer-menu-link">Бытовая химия</a>
             </li>
             <li class="footer-menu-production-item">
-              <a href="#" class="footer-menu-link">Дезинфицирующие средства</a>
+              <a href="#!" class="footer-menu-link">Дезинфицирующие средства</a>
             </li>
             <li class="footer-menu-production-item">
               <a href="" class="footer-menu-link">Пищевые аэрозоли</a>
             </li>
             <li class="footer-menu-production-item">
-              <a href="#" class="footer-menu-link">Косметическая продукция</a>
+              <a href="#!" class="footer-menu-link">Косметическая продукция</a>
             </li>
             <li class="footer-menu-production-item">
-              <a href="#" class="footer-menu-link">Краски аэрозольные</a>
+              <a href="#!" class="footer-menu-link">Краски аэрозольные</a>
             </li>
           </ul>
         </div>
@@ -100,7 +100,7 @@
           <p class="copyriht">
             &#169; <?php echo date('d.m.Y')?> «Aliance Production». Все права защищены.
           </p>
-          <a href="#" class="footer-policy">Политики конфиденциальности</a>
+          <a href="./politics-page.php" class="footer-policy">Политики конфиденциальности</a>
         </div>
         <!-- /.footer-legal -->
         <div class="footer-autor">

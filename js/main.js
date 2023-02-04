@@ -112,6 +112,7 @@ window.addEventListener("resize", () => {
 const swiperBlog = new Swiper(".blog-slider", {
   speed: 400,
   freeMode: true,
+  loop: true,
   spaceBetween: 30,
   navigation: {
     nextEl: ".slider-blog-button-next",
@@ -126,6 +127,26 @@ const swiperBlog = new Swiper(".blog-slider", {
     1200: {
       slidesPerView: 2,
     },
+  },
+});
+
+const swiperResearch = new Swiper(".research-slider", {
+  speed: 400,
+  loop: true,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".slider-research-button-next",
+    prevEl: ".slider-research-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 768px
+    992: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1200px
+    // 1200: {
+    //   slidesPerView: 2,
+    // },
   },
 });
 

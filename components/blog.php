@@ -2,18 +2,14 @@
   <section class="section blog">
     <div class="container">
       <div class="seporaiter"></div>
-      <h2 class="section-title">Блог экспертов в области производства</h2>
+      <h2 class="section-title">Блог экспертов в области производства</h2> 
       <!-- Slider main container -->
       <div class="swiper blog-slider">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <a href="#" class="swiper-slide blog-card">
-            <picture class="blog-card-img">
-              <source type="image/webp" srcset="img/blog-lab.webp">
-              <source type="image/jpg" srcset="img/blog-lab.jpg">
-              <img src="./img/blog-lab.jpg" alt="Карточка блог" class="blog-card-img">
-            </picture>
+          <a href="#!" class="swiper-slide blog-card">
+            <img src="./img/blog-lab.jpg" alt="Карточка блог" class="blog-card-img">
             <h3 class="card-blog-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -22,12 +18,8 @@
               ситуацию, в равной степени предоставлены...
             </p>
           </a>
-          <a href="#" class="swiper-slide blog-card">
-            <picture class="blog-card-img">
-              <source type="image/webp" srcset="img/blog.webp">
-              <source type="image/jpg" srcset="img/blog.jpg">
-              <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
-            </picture>
+          <a href="#!" class="swiper-slide blog-card">
+            <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
             <h3 class="card-blog-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -36,12 +28,8 @@
               Безусловно, высокотехнологичная...
             </p>
           </a>
-          <a href="#" class="swiper-slide blog-card">
-            <picture picture class="blog-card-img">
-              <source type="image/webp" srcset="img/blog.webp">
-              <source type="image/jpg" srcset="img/blog.jpg">
-              <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
-            </picture>
+          <a href="#!" class="swiper-slide blog-card">
+            <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
             <h3 class="card-blog-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -50,12 +38,8 @@
               Безусловно, высокотехнологичная...
             </p>
           </a>
-          <a href="#" class="swiper-slide blog-card">
-            <picture class="blog-card-img">
-              <source type="image/webp" srcset="img/blog.webp">
-              <source type="image/jpg" srcset="img/blog.jpg">
-              <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
-            </picture>
+          <a href="#!" class="swiper-slide blog-card">
+            <img src="./img/blog.jpg" alt="Карточка блог" class="blog-card-img">
             <h3 class="card-blog-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -67,7 +51,7 @@
         </div>
         <!-- If we need navigation buttons -->
         <div class="blog-slider-footer">
-          <a href="./blog-page.php" class="button-link">Весь блог</a>
+          <a href="#!" class="button-link">Весь блог</a>
           <div class="slider-buttons slider-buttons-visible">
             <div class="slider-blog-button-prev slider-button-prev">
               <svg class="arrow-slider">
@@ -85,5 +69,5 @@
       </div>
     </div>
     <!-- container -->
-  </section>;
+  </section>
 <?php } ?>
