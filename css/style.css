@@ -389,7 +389,7 @@ img {
 
 .main-content {
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 125px;
   position: relative;
   z-index: 10;
   color: white;
@@ -413,7 +413,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  margin-bottom: 50px;
+  margin-bottom: 76px;
 }
 
 .main-button {
@@ -734,7 +734,7 @@ img {
 }
 
 .clients-title {
-  margin-bottom: 47px;
+    margin-bottom: 33px;
 }
 
 .clients-list {
@@ -1713,6 +1713,9 @@ img {
   .founder-content {
     max-width: 620px;
   }
+  .expert-title {
+    max-width: 600px;
+  }
 }
 
 @media (max-width: 1450px) {
@@ -1760,7 +1763,11 @@ img {
   }
   .experts-img,
   .contract-avtohim-img {
-    margin-right: 0px;
+    margin-right: 120px;
+  }
+  .promo-block-photo-out {
+    right: 0px;
+    width: 500px;
   }
 }
 
@@ -1790,6 +1797,13 @@ img {
   }
   .footer-email {
     margin-bottom: 20px;
+  }
+  .experts-img,
+  .contract-avtohim-img {
+    margin-right: 0px;
+  }
+  .promo-block-photo-out {
+    width: 450px;
   }
 }
 
@@ -1946,7 +1960,7 @@ img {
   }
   .promo-block-wrapper-reverse {
     flex-direction: column-reverse;
-  }
+  } 
   .promo-block-photo {
     width: 100%;
     transform: translateY(0);

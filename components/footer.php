@@ -68,10 +68,10 @@
           <h2 class="footer-menu-title">Собственные марки</h2>
           <ul class="footer-menu-mark-list footer-menu-mark">
             <li class="footer-menu-mark-item">
-              <a href="" class="footer-menu-link">Автохимия AG-Tech</a>
+              <a href="#!" class="footer-menu-link">Автохимия AG-Tech</a>
             </li>
             <li class="footer-menu-mark-item">
-              <a href="" class="footer-menu-link">Автохимия AP</a>
+              <a href="#!" class="footer-menu-link">Автохимия AP</a>
             </li>
           </ul>
         </div>

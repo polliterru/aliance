@@ -25,7 +25,7 @@
             <!-- Обертка слайдера -->
             <ul class="swiper-wrapper main-features">
               <!-- Слайды -->
-              <li class="swiper-slide main-features-item experts-features-item">
+              <li class="swiper-slide main-features-item experts-features-">
                 <svg class="main-features-icon">
                   <use href="../img/sprite.svg#clock"></use>
                 </svg>

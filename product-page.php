@@ -20,7 +20,7 @@
   the_header_dark(); 
   $headingParams = array(
     'title' => 'Собственные торговые марки',
-    'show_image' => true,
+    'show_image' => false,
     'show_bg' => false
   );
   heading($headingParams); 

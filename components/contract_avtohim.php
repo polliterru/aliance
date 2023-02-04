@@ -29,11 +29,11 @@
             </p>
           </div>
         </div>
-        <div class="swiper swiper-experts-experts-wrapper">
+        <div class="swiper swiper-features swiper-experts-wrapper">
             <!-- Обертка слайдера -->
-            <ul class="swiper-wrapper main-features ">
+            <ul class="swiper-wrapper main-features">
               <!-- Слайды -->
-              <li class="swiper-slide main-features-item">
+              <li class="swiper-slide main-features-item experts-features-">
                 <svg class="main-features-icon">
                   <use href="../img/sprite.svg#clock"></use>
                 </svg>
@@ -66,18 +66,18 @@
             </ul>
             <!-- Кнопки навигации вперед\назад -->
             <div class="slider-buttons slider-buttons-hidden features-slider-buttons">
-              <div class="slider-features-button-prev slider-button-prev slider-button-prev-outline">
-                <svg class="arrow-slider">
+              <div class="slider-features-button-prev slider-button-prev slider-button-prev-experts slider-button-prev-outline">
+                <svg class="arrow-slider arrow-slider-experts">
                   <use href="../img/sprite.svg#arrow-prev"></use>
                 </svg>
               </div>
-              <div class="slider-features-button-next slider-button-next slider-button-next-outline">
-                <svg class="arrow-slider">
+              <div class="slider-features-button-next slider-button-next slider-button-next-experts slider-button-next-outline">
+                <svg class="arrow-slider arrow-slider-experts">
                   <use href="../img/sprite.svg#arrow-next"></use>
                 </svg>
               </div>
             </div>
           </div>
-      </div>
+        </div>
   </section>
 <?php } ?>

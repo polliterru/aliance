@@ -3,6 +3,7 @@
   require_once('./components/cta.php');
   require_once('./components/blog.php');
   require_once('./components/clients.php');
+  require_once('./components/product.php');
   require_once('./components/founder.php');
   require_once('./components/marks.php');
   require_once('./components/promo_block.php');
@@ -89,6 +90,7 @@
 
     <?php
       steps();
+      product();
       marks();
       founder();
       clients();
