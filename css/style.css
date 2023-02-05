@@ -520,6 +520,10 @@ img {
   transition: border 0.2s;
 }
 
+.production {
+  margin-top: 143px;
+}
+
 .card:hover .card-title {
   color: #5c8ee6;
 }
@@ -721,7 +725,7 @@ img {
 }
 
 .clients-title {
-    margin-bottom: 33px;
+  margin-bottom: 38px;
 }
 
 .clients-list {

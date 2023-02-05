@@ -4,7 +4,7 @@
       <div class="seporaiter"></div>
       <h2 class="section-title">Контрактное производство</h2>
       <div class="group-cards">
-        <a href="#!" class="card">
+        <a href="./avtohim-page.php" class="card">
           <div class="card-content">
             <h3 class="card-title">Автомобильная химия</h3>
             <p class="card-text">
