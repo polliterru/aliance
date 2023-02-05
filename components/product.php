@@ -2,7 +2,7 @@
   <section class="section production">
     <div class="container">
       <div class="seporaiter"></div>
-      <h2 class="section-title">Контрактное производство</h2>
+      <h2 class="section-title production-title">Контрактное производство</h2>
       <div class="group-cards">
         <a href="./avtohim-page.php" class="card">
           <div class="card-content">

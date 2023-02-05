@@ -75,26 +75,28 @@
   ];
 
   ?>
-  <section class="section">
-    <div class="container">
-      <div class="blog-page-wrapper">
-        <?php 
-          foreach ($blog_card_list as $blog_card_params) {
-            blog_card($blog_card_params);
-          }
-          ?>
+  <div class="blog-page">
+    <section class="section blog-section">
+      <div class="container">
+        <div class="blog-page-wrapper">
+          <?php 
+            foreach ($blog_card_list as $blog_card_params) {
+              blog_card($blog_card_params);
+            }
+            ?>
+        </div>
+        <div class="pagination">
+          <ul class="pagination-list">
+            <li><a class="pagination-link active" href="#!">1</a></li>
+            <li><a class="pagination-link" href="#!">2</a></li>
+            <li><a class="pagination-link" href="#!">3</a></li>
+            <li><a class="pagination-link" href="#!">4</a></li>
+            <li><a class="pagination-link" href="#!">5</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="pagination">
-        <ul class="pagination-list">
-          <li><a class="pagination-link active" href="#!">1</a></li>
-          <li><a class="pagination-link" href="#!">2</a></li>
-          <li><a class="pagination-link" href="#!">3</a></li>
-          <li><a class="pagination-link" href="#!">4</a></li>
-          <li><a class="pagination-link" href="#!">5</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
   
   <?php
     cta(); 

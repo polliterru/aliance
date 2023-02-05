@@ -16,7 +16,7 @@
 <?php require_once('./head.php'); ?>
 
 <body>
-
+  <div class="about-page">
   <?php 
     $heading_params = array(
       'title' => 'О компании',
@@ -55,6 +55,7 @@
     modal(); 
     modal_success(); 
   ?>
+   </div>
 
   <?php require_once('./scripts.php'); ?>
 </body>

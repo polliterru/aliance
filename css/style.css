@@ -95,6 +95,7 @@ img {
   font-size: 16px;
   line-height: 26px;
   color: #5c8ee6;
+  cursor: pointer;
 }
 
 .button-link:before {
@@ -126,12 +127,13 @@ img {
 .pagination-list {
   display: flex;
   align-items: center;
+  padding-right: 20px;
 }
 .pagination-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
+  width: auto;
   height: 50px;
   font-style: normal;
   font-weight: 600;
@@ -139,7 +141,14 @@ img {
   line-height: 160%;
   color: #292d33;
 }
+.pagination-list li .pagination-link {
+  margin-left: 35px;
+}
+.pagination-list li:first-child .pagination-link {
+  margin-left: 0;
+}
 .pagination-link.active {
+  width: 50px;
   color: #5c8ee6;
   border: 1px solid #5c8ee6;
 }
@@ -1381,12 +1390,13 @@ img {
   font-size: 28px;
   line-height: 160%;
   color: #292d33;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .text-block-text {
+  letter-spacing: 1.1px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 160%;
   color: #828a99;
   margin-bottom: 20px;
@@ -1514,8 +1524,8 @@ img {
 }
 
 .modal-form-button {
+  width: 100%;
   font-size: 14px;
-  padding: 20px 113px;
 }
 
 .modal-success-form-button {
@@ -1560,8 +1570,8 @@ img {
   font-size: 80px;
   line-height: 96px;
   color: #292d33;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .breadcrumb {
@@ -1662,9 +1672,69 @@ img {
   border: none;
 }
 
-.product-title-non .section-title,
+.product-title-non .production-title,
 .product-title-non .seporaiter {
   display: none;
+}
+
+.product-title-non .section{
+  margin-top: 98px;
+}
+/* 
+.product-title-non .cta {
+  margin-top: 300px;
+}
+
+.product-title-non .cta-img {
+  position: absolute;
+  bottom: -99px;
+  left: -222px;
+  max-width: 720px;
+  max-height: 626px;
+} */
+
+.seo-section {
+  margin-top: 93px;
+}
+
+.about-page .section {
+  margin-top: 100px;
+}
+.about-page .promo-block {
+  margin-top: 188px;
+}
+.about-page .founder {
+  margin-top: 49px;
+}
+.about-page .research {
+  margin-top: 200px;
+}
+.about-page .research-title {
+  margin-bottom: 28px;
+}
+.about-page .research-card {
+  gap: 50px;
+}
+.about-page .clients {
+  margin-top: 146px;
+}
+.about-page .cta {
+  margin-top: 220px;
+}
+.about-page .footer-bottom {
+  padding-top: 39px;
+}
+
+.product-page .trade-marks {
+  margin-top: 96px;
+}
+.product-page .trade-marks .section-title, 
+.product-page .trade-marks .seporaiter {
+  display: none;
+}
+
+.blog-page .blog-section {
+  margin-top: 98px;
 }
 
 
@@ -2192,7 +2262,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 35px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
   .main-title {
     font-size: 64px;
@@ -2461,9 +2532,6 @@ img {
   }
   .modal-input-group-wrapper {
     margin: 20px 0;
-  }
-  .modal-form-button {
-    padding: 20px 75px;
   }
   .modal-form-footer {
     gap: 18px;

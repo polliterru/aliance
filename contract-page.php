@@ -25,12 +25,14 @@
     heading($headingParams); 
   ?>
     <div class="product-title-non">
-      <?php product(); ?>
+      <?php 
+      product();
+      ?>
     </div>
-
-  <?php 
+    
+    <?php 
     text_block(); 
-    cta(); 
+    cta();  
     footer(); 
     modal(); 
     modal_success(); 

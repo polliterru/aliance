@@ -21,7 +21,7 @@
   <?php  
   $headingParams = array(
     'title' => 'Автомобильная химия',
-    'show_image' => rtue,
+    'show_image' => true,
   );
   $promo_block = array(
     'mobileReverse' => false,

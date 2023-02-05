@@ -21,7 +21,11 @@
     'show_bg' => false
   );
   heading($headingParams); 
-  marks(); 
+  ?>
+  <div class="product-page">
+    <?php marks(); ?> 
+  </div>
+  <?
   cta(); 
   footer(); 
   modal(); 

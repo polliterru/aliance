@@ -1,5 +1,5 @@
 <?php function text_block() { ?>
-  <section class="section">
+  <section class="section seo-section">
       <div class="container text-block">
         <h2 class="text-block-titile">SEO Заголовок</h2>
         <p class="text-block-text">
